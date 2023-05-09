@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    background-color: rgb(17, 17, 17);
+    background: rgba(255, 196, 0, 0.822);
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -39,4 +39,43 @@ body {
     text-decoration: none;
     color: whitesmoke;
 }
+
+#hero{
+    padding: 50px 170px 20px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(order-delivery-abstract-seamless-pattern-editable-shapes-on-yellow-background-trendy-texture-with-cartoon-color-icons-design-with-graphic-elements-for-interior-fabric-website-decoration-vector.webp);
+    background-size: 100%;
+    
+}
+
+.hero-info{
+    max-width: 700px;
+}
+
+.hero-info h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 46px;
+    color: white;
+}
+
+.hero-info h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+}
+
+.hero-info p{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.hero-img img{
+    height: 400px;
+    width: auto;
+}
+
 
