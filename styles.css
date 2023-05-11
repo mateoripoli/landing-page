@@ -47,15 +47,17 @@ body {
 }
 
 #hero{
-    padding: 40px 150px 100px 150px;
+    padding-top: 50px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;    
-    flex-direction: column;
+    align-items: center;  
+    flex-direction: row-reverse;  
 }
 
 .hero-info{
-  text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
 }
 
 .hero-info h1{
@@ -78,7 +80,7 @@ body {
 }
 
 .hero-img img{
-    height: 200px;
+    height: 400px;
     width: auto;
 }
 
