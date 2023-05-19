@@ -7,56 +7,107 @@
    <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
-    
-    <title>Mateo Rípoli</title>
+     <title>Mateo Rípoli</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
    <div class="bg">
     <header class="header">
         <div class="logo">
-            <img src="FotoPerfilPNG.png" alt="logo">
+            <img src="./imgs/logo.png" alt="logo">
         </div>
 
         <nav>
             <ul class="nav-link">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Hablididades</a></li>
+                <li><a href="#">Habilididades</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
-
         <main>
           <section id="hero">
-        
-            <div class="hero-img">
-                <img src="m-logo.png" alt="Ilustración">
-            </div>
+            <!-- <div class="hero-img">
+                <img src="./imgs/m-logo.png" alt="M">
+            </div> -->
            
             <div class="hero-info">
-            <h1>Hola! Soy Mateo Rípoli, Desarrollador Web Full Stack</h1>
-            <h2>Bienvenido a mi Portafolio!</h2>
+             <h1 class="gradient-text">Hola! Soy Mateo Rípoli, Desarrollador Web Full Stack</h1>
+             <h2>Bienvenido a mi Portafolio!</h2>
             </div>
          
+            <!--
             <div class="hero-img">
-                <img src="r-logo.png" alt="Ilustración">
+                <img src="./imgs/r-logo.png" alt="R">
             </div>
-        
-        </section>
+            -->
+         </section>
 
-          <section id="info">
-            <div class="info-logo"> <img src="FotoPerfilPNG.png" alt="Logo"> </div>
+          <section id="info-all">
+             <!-- <div class="wave"><img src="imgs/wave.png" alt=""></div> -->
+              <div id="info">
+                <div class="info-logo"> <img src="./imgs/logo.png" alt="Logo"> </div>
+                <h2>Aquí encontrarás mi trabajo como diseñador web full stack. Si necesitas un sitio web atractivo, funcional y de alta calidad, no dudes en contactarme. Estoy dispuesto a trabajar contigo y ayudarte a crear el sitio web perfecto para ti.</h2>
+            </div>
+         </section>
+       
+          <section id="cards">
+           <!-- Proyectos -->
+            <h2>Proyectos</h2>
+
+            <div class="cards-container">
+                <div class="proyecto1">
+                    
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción del proyecto 1</p>
+                </div>
+                
+                <div class="proyecto2">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción del proyecto 2</p>
+                </div>
+               
+                <div class="proyecto3">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción del proyecto 3</p>
+                </div>
+            </div>
             
-            <h2>Aquí encontrarás mi trabajo como diseñador web full stack. Si necesitas un sitio web atractivo, funcional y de alta calidad, no dudes en contactarme. Estoy dispuesto a trabajar contigo y ayudarte a crear el sitio web perfecto para ti.</h2>
-          </section>
-        </main>   
+            <!-- Habilidades -->
+            <h2>Habilididades</h2>
+
+            <div class="cards-container">
+                <div class="habilidad1">
+                    
+                    <img src="imgs/html5.png" alt="html5">
+                    <h3>HTML5</h3>
+                </div>
+                
+                <div class="habilidad2">
+                    <img src="imgs/css3.png" alt="css3">
+                    <h3>CSS3</h3>
+                </div>
+               
+                <div class="habilidad3">
+                    <img src="imgs/github.png" alt="github">
+                    <h3>GITHUB</h3>
+                </div>
+            </div>
+         </section>
+         
+         <footer>
+            <div class="list">
+            <h2>Contactame!</h2>
+            <ul>
+              <li>📧Gmail: gonzalezmateo04@gmail.com</li>
+              <li>📞Celular: +54-011-2853-7532</li>
+            </ul>
+            </div>
+          </footer>
+    </main>   
     </div>
 </body>
 </html>
