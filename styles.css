@@ -60,7 +60,7 @@ body {
 }
 
 .hero-info{
-    padding: 0px 500px 500px 0px;
+    padding: 0px 500px 500px 20px;
     color: white;
 }
 
@@ -274,4 +274,11 @@ ul{
 
 footer h2{
     font-size: 40px;
+}
+
+@media (min-width:1920) {
+    h1{
+        color: black;
+    }
+    
 }
