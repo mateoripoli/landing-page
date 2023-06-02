@@ -88,7 +88,6 @@ body {
 
 .bg {
     background-image: url(./imgs/v904-nunny-004.jpg);
-    background-size: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:local;
@@ -127,7 +126,7 @@ body {
 
 #cards {
     background-image: url(./imgs/v904-nunny-006.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 70px;
