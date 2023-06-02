@@ -11,7 +11,7 @@ html{
 }
 
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(255, 255, 255);
 }
 
 .header {
@@ -89,12 +89,14 @@ body {
 .bg {
     background-image: url(./imgs/v904-nunny-004.jpg);
     background-size: 100vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment:local;
 }
 
 #info-all {
     background-color: rgb(34, 34, 34);
+    max-height: 700px;
 }
 
 #info{
