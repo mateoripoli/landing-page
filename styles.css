@@ -58,6 +58,7 @@ body {
     justify-content: center;
     align-items: center;  
     flex-direction: row-reverse;  
+    display: block;
 }
 
 .hero-info{
@@ -111,6 +112,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 28px;
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 #info .info-logo img{
@@ -130,6 +132,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 70px;
+    cursor: default;
 }
 
 #cards h2{
