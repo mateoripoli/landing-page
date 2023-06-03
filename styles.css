@@ -100,7 +100,7 @@ body {
 }
 
 #info{
-    padding: 150px 200px 150px 200px;
+    padding: 100px 200px 150px 200px;
     display: flex;
     flex-direction: column;
 }
@@ -280,9 +280,3 @@ footer h2{
     font-size: 40px;
 }
 
-@media (min-width:1920) {
-    h1{
-        color: black;
-    }
-    
-}
